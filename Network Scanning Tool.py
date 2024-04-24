@@ -89,6 +89,7 @@ def scanLDAP(timeout=35):
                 "Destination Port:": packet[TCP].dport
             }
             ldapList.append(ldapinfo)
+    return ldapList
 
 
 def main():
